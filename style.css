@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* this is the box of user name */
+#username-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* user profile pic box */
+#user-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 900px;
+}
+
+/* user profile pic */
+#user-icon {
+  width: 150px;
+  border: 2px solid lightpink;
+  border-radius: 55px;
+}
+
+/* socials box */
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  margin-top: 10px;
+}
+
+/* linkedIn box */
+#linkedin-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* linkedin icon */
+#linkedin-icon {
+  height: 25px;
+  margin-right: 3px;
+}
+
+/* github box */
+#github-box {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* github icon */
+#github-icon {
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+/* email box */
+#email-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* email icon */
+#mail-icon {
+  height: 25px;
+  margin-right: 3px;
+}
+
+/* hobby n skills box */
+#hobby-skill-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* skill box */
+#skill-box {
+  border: 2px solid lightpink;
+  margin-right: 60px;
+  border-radius: 20px;
+  height: 140px;
+  width: 270px;
+}
+
+#skill-text,
+#hobby-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+#hobby-box {
+  border: 2px solid lightpink;
+  margin-left: 60px;
+  border-radius: 20px;
+  height: 140px;
+  width: 180px;
+}
+
+.inner-table {
+  display: flex;
+  justify-content: center;
+}
+
+/* box for project preview and its link */
+#personal-project-box {
+  border: 2px solid lightpink;
+  border-radius: 1000px;
+  width: 550px;
+}
+
+/* header for project preview */
+#project-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* box for project preview */
+#project-preview-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* project preview img */
+#project-preview {
+  height: 200px;
+  width: 200px;
+}
+
+/* box of text for source code project */
+#project-text-box {
+  display: flex;
+  justify-content: center;
+}
+
+/* text for source code */
+#source-code {
+  margin-top: 8px;
+}
