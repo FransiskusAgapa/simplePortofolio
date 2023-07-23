@@ -36,7 +36,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
   margin-top: 10px;
 }
 
@@ -45,6 +44,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+  background-color: rgb(247, 201, 208);
 }
 
 /* linkedin icon */
@@ -60,6 +62,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+  background-color: rgb(247, 201, 208);
 }
 
 /* github icon */
@@ -74,6 +79,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+  background-color: rgb(247, 201, 208);
 }
 
 /* email icon */
@@ -94,6 +102,7 @@
 /* skill box */
 #skill-box {
   border: 2px solid lightpink;
+  background-color: rgb(247, 201, 208);
   margin-right: 60px;
   border-radius: 20px;
   height: 140px;
@@ -110,6 +119,7 @@
 
 #hobby-box {
   border: 2px solid lightpink;
+  background-color: rgb(247, 201, 208);
   margin-left: 60px;
   border-radius: 20px;
   height: 140px;
@@ -124,10 +134,16 @@
 /* box for project preview and its link */
 #personal-project-box {
   border: 2px solid lightpink;
+  background-color: rgb(247, 201, 208);
   border-radius: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* text for 'project source' */
+#project-source {
+  margin-left: 10px;
 }
 
 /* img of project preview */
@@ -144,4 +160,48 @@
 /* text and source code of the project preview */
 #project-source {
   font-size: 22px;
+}
+
+/* user contact box */
+#user-contact-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 400px;
+  background-color: rgb(247, 201, 208);
+}
+
+/* box for text 'contact me' */
+#contact-text-box {
+  margin-left: 10px;
+}
+
+/* box for name and email to be contacted */
+#name-email-box {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* box for 'email' */
+#email-box {
+  margin-right: 10px;
+}
+
+/* box for message-text-box */
+#message-text-box {
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* box for 'send button' */
+#send-btn-box {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
