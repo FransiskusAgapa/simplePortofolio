@@ -4,3 +4,4 @@ Latest Update:
 - Personal project preview added
 - Contact information added
 - Simple animation added
+- Link to new project added
