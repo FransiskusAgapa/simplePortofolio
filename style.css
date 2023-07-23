@@ -194,7 +194,8 @@
   border: 2px solid lightpink;
   border-radius: 10px;
   width: 50%;
-
+  resize: both;
+  overflow: auto;
   margin-left: 400px;
   background-color: rgb(247, 201, 208);
 }
