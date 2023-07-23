@@ -61,6 +61,7 @@
 #linkedin-icon {
   height: 25px;
   margin-right: 3px;
+  border-radius: 50px;
 }
 
 /* github box */
@@ -96,6 +97,7 @@
 #mail-icon {
   height: 25px;
   margin-right: 3px;
+  border-radius: 50px;
 }
 
 /* hobby n skills box */
