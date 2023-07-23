@@ -1,1 +1,3 @@
-This is the initial commit
+Skills and Hobbies table added
+Personal project preview added
+Contact information added

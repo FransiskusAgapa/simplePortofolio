@@ -29,6 +29,14 @@
   width: 150px;
   border: 2px solid lightpink;
   border-radius: 55px;
+  margin: 10px, 20px;
+}
+
+/* box for 'content box' */
+#content-box {
+  background-color: rgb(231, 222, 222);
+  border-radius: 10px;
+  padding-bottom: 10px;
 }
 
 /* socials box */
@@ -105,7 +113,7 @@
   background-color: rgb(247, 201, 208);
   margin-right: 60px;
   border-radius: 20px;
-  height: 140px;
+  height: 160px;
   width: 270px;
 }
 
@@ -126,9 +134,15 @@
   width: 180px;
 }
 
+/* boxex of tech and hobby tables */
 .inner-table {
   display: flex;
   justify-content: center;
+}
+
+/* box of 'tech table' */
+#tech-inner-table {
+  /* style here */
 }
 
 /* box for project preview and its link */
@@ -139,6 +153,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 220px;
 }
 
 /* text for 'project source' */
@@ -148,8 +163,8 @@
 
 /* img of project preview */
 #project-preview {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 180px;
 }
 
 /* inner project source */
@@ -169,6 +184,7 @@
   border: 2px solid lightpink;
   border-radius: 10px;
   width: 50%;
+
   margin-left: 400px;
   background-color: rgb(247, 201, 208);
 }
@@ -204,4 +220,10 @@
   margin-top: 5px;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.shadow {
+  box-shadow: 10px 5px 4px rgb(184, 182, 182);
+  transition: 350ms;
+  cursor: pointer;
 }

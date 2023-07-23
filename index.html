@@ -10,139 +10,183 @@
     <div id="username-box">
       <h1 id="username">Fransiskus Agapa</h1>
     </div>
-    <div id="user-icon-box">
-      <img id="user-icon" src="./assets/caticon.gif" alt="user icon" />
-    </div>
-    <div id="socials">
-      <div id="linkedin-box">
+    <div id="content-box">
+      <div id="user-icon-box">
         <img
-          id="linkedin-icon"
-          src="./assets/linkedinIcon.png"
-          alt="linkedin icon"
+          id="user-icon"
+          src="./assets/caticon.gif"
+          alt="user icon"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+          onclick="alert('This is Animated Version of Myself')"
         />
-        <p id="linkedin">
-          <a href="#">LinkedIn</a>
-        </p>
       </div>
-      <div id="github-box">
-        <img
-          id="github-icon"
-          src="./assets/githubicon.webp"
-          alt="github icon"
-        />
-        <p>
-          <a href="github">Github</a>
-        </p>
-      </div>
-      <div id="email-box">
-        <img id="mail-icon" src="./assets/emailicon.jfif" alt="email icon" />
-        <p>
-          <a
-            href="mailto:agapaf@spu.edu?subject='Hi, Fransiskus, I'd like to connect / collaborate wwith you on ... project'"
-            >Email</a
-          >
-        </p>
-      </div>
-    </div>
-    <div id="hobby-skill-box">
-      <div id="skill-box">
-        <h3 id="skill-text">Skills</h3>
-        <div class="inner-table">
-          <table class="inner-table">
-            <tr>
-              <th>Language</th>
-              <th>- Technology</th>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>|Github</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>|Git and Version Control</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-            </tr>
-            <tr>
-              <td>C++</td>
-            </tr>
-          </table>
+      <div id="socials">
+        <div
+          id="linkedin-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          <img
+            id="linkedin-icon"
+            src="./assets/linkedinIcon.png"
+            alt="linkedin icon"
+          />
+          <p id="linkedin">
+            <a href="#">LinkedIn</a>
+          </p>
         </div>
-      </div>
-      <div id="hobby-box">
-        <h3 id="hobby-text">Hobbies</h3>
-        <div class="inner-table">
-          <table id="hobby-table">
-            <tr>
-              <th>Indoor</th>
-              <th>- Outdoor</th>
-            </tr>
-            <tr>
-              <td>Drawing</td>
-              <td>|Running</td>
-            </tr>
-            <tr>
-              <td>Chest</td>
-              <td>|Walking</td>
-            </tr>
-            <tr>
-              <td>Dancing</td>
-              <td>|Swimming</td>
-            </tr>
-          </table>
+        <div
+          id="github-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          <img
+            id="github-icon"
+            src="./assets/githubicon.webp"
+            alt="github icon"
+          />
+          <p>
+            <a href="github">Github</a>
+          </p>
         </div>
-      </div>
-    </div>
-    <div id="personal-project-box">
-      <div id="project-preview-box">
-        <img
-          id="project-preview"
-          src="./assets/previewRegistrationForm.png"
-          alt="preview of registration form"
-        />
-      </div>
-      <div id="project-source-text-box">
-        <div id="inner-project-source">
-          <p id="project-source">
-            Project:
-            <a href="https://github.com/FransiskusAgapa/basicRegistrationform2"
-              >RegistrationForm</a
+        <div
+          id="email-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          <img id="mail-icon" src="./assets/emailicon.jfif" alt="email icon" />
+          <p>
+            <a
+              href="mailto:agapaf@spu.edu?subject='Hi, Fransiskus, I'd like to connect / collaborate wwith you on ... project'"
+              >Email</a
             >
-            ( HTML,CSS,JS)
           </p>
+        </div>
+      </div>
+      <div id="hobby-skill-box">
+        <div
+          id="skill-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          <h3 id="skill-text">Skills</h3>
+          <div class="inner-table">
+            <table id="tech-inner-table">
+              <tr>
+                <th>Language</th>
+                <th>- Technology</th>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>|Github</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>|Git and Version Control</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div
+          id="hobby-box"
+          onmouseover="addShadow(this)"
+          onmouseout="removeShadow(this)"
+        >
+          <h3 id="hobby-text">Hobbies</h3>
+          <div class="inner-table">
+            <table id="hobby-table">
+              <tr>
+                <th>Indoor</th>
+                <th>- Outdoor</th>
+              </tr>
+              <tr>
+                <td>Drawing</td>
+                <td>|Running</td>
+              </tr>
+              <tr>
+                <td>Chest</td>
+                <td>|Walking</td>
+              </tr>
+              <tr>
+                <td>Dancing</td>
+                <td>|Swimming</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div
+        id="personal-project-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+      >
+        <div id="project-preview-box">
+          <img
+            id="project-preview"
+            src="./assets/previewRegistrationForm.png"
+            alt="preview of registration form"
+          />
+        </div>
+        <div id="project-source-text-box">
+          <div id="inner-project-source">
+            <p id="project-source">
+              Project:
+              <a
+                href="https://github.com/FransiskusAgapa/basicRegistrationform2"
+                >RegistrationForm</a
+              >
+              ( HTML,CSS,JS)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        id="user-contact-box"
+        onmouseover="addShadow(this)"
+        onmouseout="removeShadow(this)"
+      >
+        <div id="contact-text-box">
+          <h3>Contact Me</h3>
+        </div>
+        <div id="name-email-box">
+          <div id="name-box">
+            <p>
+              Name:
+              <input type="text" name="userName" placeholder="your name" />
+            </p>
+          </div>
+          <div id="email-box">
+            <p>
+              Email:
+              <input type="text" name="userEmail" placeholder="email" />
+            </p>
+          </div>
+        </div>
+        <div id="message-text-box">
+          <div id="message-text">
+            <p>Message:</p>
+          </div>
+          <div id="message-box">
+            <textarea name="messageMe" rows="5" cols="104"></textarea>
+          </div>
+        </div>
+        <div id="send-btn-box">
+          <button id="send-btn" onclick="alert('Thank you for your input!')">
+            Send Message
+          </button>
         </div>
       </div>
     </div>
-    <div id="user-contact-box">
-      <div id="contact-text-box">
-        <h3>Contact Me</h3>
-      </div>
-      <div id="name-email-box">
-        <div id="name-box">
-          <p>
-            Name:
-            <input type="text" name="userName" placeholder="your name" />
-          </p>
-        </div>
-        <div id="email-box">
-          <p>
-            Email:
-            <input type="text" name="userEmail" placeholder="email" />
-          </p>
-        </div>
-      </div>
-      <div id="message-text-box">
-        <div id="message-text">
-          <p>Message:</p>
-        </div>
-        <div id="message-box">
-          <textarea name="messageMe" rows="5" cols="104"></textarea>
-        </div>
-      </div>
-      <div id="send-btn-box">
-        <button id="send-btn">Send Message</button>
-      </div>
-    </div>
+    <script src="./script.js"></script>
   </body>
 </html>
