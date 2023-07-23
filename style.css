@@ -162,10 +162,17 @@
   margin-left: 10px;
 }
 
-/* img of project preview */
-.project-preview {
+/* img of project 1 preview */
+#first-project-preview {
   height: 200px;
   width: 180px;
+}
+
+/* img of project 2 preview */
+#second-project-preview {
+  height: 200px;
+  width: 180px;
+  margin-right: 30px;
 }
 
 /* inner project source */
