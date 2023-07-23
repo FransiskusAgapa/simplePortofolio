@@ -125,36 +125,23 @@
 #personal-project-box {
   border: 2px solid lightpink;
   border-radius: 1000px;
-  width: 550px;
-}
-
-/* header for project preview */
-#project-header {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  align-items: center;
 }
 
-/* box for project preview */
-#project-preview-box {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-/* project preview img */
+/* img of project preview */
 #project-preview {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 
-/* box of text for source code project */
-#project-text-box {
-  display: flex;
-  justify-content: center;
+/* inner project source */
+#inner-project-source {
+  /* style here */
 }
 
-/* text for source code */
-#source-code {
-  margin-top: 8px;
+/* text and source code of the project preview */
+#project-source {
+  font-size: 22px;
 }
