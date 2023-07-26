@@ -160,30 +160,40 @@
 }
 
 /* text for 'project source' */
-#project-source {
+.project-source {
   margin-left: 10px;
+}
+
+/* images preview of personal projects */
+#first-project-preview,
+#second-project-preview,
+#three-project-preview {
+  height: 200px;
+  width: 180px;
 }
 
 /* img of project 1 preview */
 #first-project-preview {
-  height: 200px;
-  width: 180px;
+  /* style here */
 }
 
 /* img of project 2 preview */
 #second-project-preview {
-  height: 200px;
-  width: 180px;
   margin-right: 30px;
 }
 
+/* img of 3rd project preciew */
+#three-project-preview {
+  margin-left: 190px;
+}
+
 /* inner project source */
-#inner-project-source {
+.inner-project-source {
   /* style here */
 }
 
 /* text and source code of the project preview */
-#project-source {
+.project-source {
   font-size: 22px;
 }
 
