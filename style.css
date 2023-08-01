@@ -167,7 +167,8 @@
 /* images preview of personal projects */
 #first-project-preview,
 #second-project-preview,
-#three-project-preview {
+#three-project-preview,
+#four-project-preview {
   height: 200px;
   width: 180px;
 }
@@ -244,7 +245,7 @@
 }
 
 .shadow {
-  box-shadow: 10px 5px 4px rgb(184, 182, 182);
-  transition: 350ms;
+  box-shadow: 10px 5px 10px rgb(184, 182, 182);
+  transition: 300ms;
   cursor: pointer;
 }
