@@ -168,7 +168,8 @@
 #first-project-preview,
 #second-project-preview,
 #three-project-preview,
-#four-project-preview {
+#four-project-preview,
+#five-project-preview {
   height: 200px;
   width: 180px;
 }
